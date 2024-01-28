@@ -1,0 +1,144 @@
+.main-header {
+  background-color: #8034c3;
+}
+.main-navigation__item a {
+  color: #ffffff;
+}
+.banner {
+  display: block;
+  top: 0;
+  background: url(../img/common-banner.png.webp);
+  background-size: cover;
+  text-align: center;
+  height: 21rem;
+}
+.banner-info {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+  padding-top: 6.25rem;
+}
+/* about me section */
+.about-me {
+  padding: 7rem 0;
+}
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+.about-me__img img {
+  width: 90%;
+}
+.section-subtitle {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+}
+.section-title {
+  margin-top: 5px;
+  font-size: 2.625rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #05364d;
+}
+.about-me__description {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #797979;
+  line-height: 1.69rem;
+}
+.about-me__action {
+  margin-top: 2.5rem;
+}
+
+/* clients */
+.client {
+  padding-top: 6.25rem;
+}
+.client-item > div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.client-item__img {
+  width: 100%;
+}
+.client-item__img img {
+  width: 85%;
+}
+.client-item__name {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.client-item__position {
+  font-size: 0.87rem;
+  font-weight: 300;
+  color: #5b6d75;
+}
+.client-item__review {
+  font-size: 0.87rem;
+  line-height: 1.68rem;
+  font-weight: 300;
+  color: #5b6d75;
+}
+.client-item__info {
+  padding-top: 3.12rem;
+  padding-left: 3.12rem;
+}
+.client-item__rate {
+  color: #ffd805;
+}
+.client-item__rate .disabled {
+  color: #aeb9be;
+}
+.client-items {
+  padding-top: 35px;
+}
+/* partners section */
+.partners {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+.partner {
+  display: inline-block;
+  padding: 0 1.87rem;
+}
+@media only screen and (max-width: 991px) {
+  /* banner section */
+  .banner {
+    height: 12rem;
+  }
+  .banner-info {
+    padding-top: 2.6rem;
+  }
+  /* about me section */
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me {
+    padding: 1.5rem 0;
+  }
+  .about-me__img img {
+    display: none;
+  }
+  /* clients  */
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+  /* partners */
+  .partners {
+    padding: 1.5 0;
+  }
+  .partner {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
